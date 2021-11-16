@@ -101,12 +101,12 @@ router.get('/profiles', checkLogIn, (req,res,next)=>{
 
 router.get('/main',checkLogIn, (req,res,next)=>{
     
-    res.render('auth/profiles.hbs')
+    res.render('auth/main.hbs')
 })
 
 router.get('/private',checkLogIn, (req,res,next)=>{
    
-    res.render('auth/profiles.hbs')
+    res.render('auth/private.hbs')
 })
 
 
